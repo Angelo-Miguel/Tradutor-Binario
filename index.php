@@ -42,9 +42,9 @@
             }
         }
         
-
         if (isset($_POST['sub-codigo'])) {
-            $codigo = $_POST['cofigo'];
+            $codigo = $_POST['codigo'];
+            
         }
     ?>
 
