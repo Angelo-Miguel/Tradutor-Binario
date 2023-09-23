@@ -22,7 +22,6 @@
                 $codigo = "" ;
                 $ascii = ord($letra);
 
-            
                 do {
                     if ($ascii % 2 == 0) {
                         $codigo .= "0";
@@ -42,9 +41,9 @@
             }
         }
         
-
         if (isset($_POST['sub-codigo'])) {
-            $codigo = $_POST['cofigo'];
+            $codigo = $_POST['codigo'];
+            
         }
     ?>
 
